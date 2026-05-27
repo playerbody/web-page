@@ -1,4 +1,7 @@
-
+/* scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
 /* bgc */
 body {
     text-align: center;
@@ -416,9 +419,6 @@ img {
     border: 2px solid rgba(48, 0, 110, 0.57);
     border-radius: 10px;
 
-}
-html {
-    scroll-behavior: smooth;
 }
 li img:hover {
     width: 35px;
