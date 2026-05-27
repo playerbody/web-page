@@ -244,8 +244,7 @@ body {
 .s44 {
     top: 40px;
     left: 11234px;
-    animation:
-    star 1ms ease-in-out 2s infinite;
+    animation:star 1ms ease-in-out 2s infinite;
 }
 .s45 {
     top: 800px;
