@@ -1,10 +1,14 @@
+
+/* bgc */
 body {
     text-align: center;
-    margin: 0;
+    margin: 10px;
     background-color: black;
+    padding-left: 0;
+    margin-top: 5px;
     padding-top: 10px;
+    box-sizing: border-box;
 }
-
 /* site headline */
 #h1 {
     border-radius: 15px;
@@ -359,22 +363,16 @@ body {
     padding: 10px;
     box-sizing: border-box;
     left: 25px;
-
-
 }
-
 ol {
     list-style-type: none;
     display: inline;
-
 }
-
 li {
     margin-left: 0;
     padding-bottom: 15px;
     text-align: center;
 }
-
 h2 {
     border: 3px solid hsl(260, 51%, 44%);
     color: rgb(255, 255, 255);
@@ -386,9 +384,7 @@ h2 {
     -webkit-backdrop-filter: blur(25px);
     box-shadow: 0px 0px 10px hsl(260, 51%, 44%);
     margin-top: 40px;
-
 }
-
 p {
     color: rgb(0, 0, 0);
     font-size: 15px;
@@ -402,19 +398,16 @@ p {
     margin-top: 20px;
     padding-bottom: 2px;
 }
-
 img {
     opacity: 0.8;
     width: 200px;
     margin-left: 30px;
 }
-
 .zohale {
     opacity: 0.8;
     width: 300px;
     margin-left: 30px;
 }
-
 .snav {
     width: 30px;
     height: 30px;
@@ -424,11 +417,9 @@ img {
     border-radius: 10px;
 
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 li img:hover {
     width: 35px;
     height: 35px;
