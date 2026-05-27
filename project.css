@@ -24,7 +24,7 @@ body {
 .s {
     top: 100px;
     left: 125px;
-    animation: star 4s ease-in-out 1s infinite;
+    animation: star 2s ease-in-out 1s infinite;
 }
 .s1 {
     top: 400px;
@@ -39,7 +39,7 @@ body {
 .s3 {
     top: 250px;
     left: 150px;
-    animation: star 4s ease-in-out 3.5s infinite;
+    animation: star 2s ease-in-out 3.5s infinite;
 }
 .s4 {
     top: 11px;
@@ -59,7 +59,7 @@ body {
 .s7 {
     top: 200px;
     left: 500px;
-    animation: star 3s ease-in-out 4s infinite;
+    animation: star 1s ease-in-out 4s infinite;
 }
 .s8 {
     top: 30px;
@@ -79,7 +79,7 @@ body {
 .s11 {
     top: 40px;
     left: 100px;
-    animation: star 4.5s ease-in-out 2s infinite;
+    animation: star 2.4s ease-in-out 2s infinite;
 }
 .s12 {
     top: 200px;
@@ -104,12 +104,12 @@ body {
 .s16 {
     top: 500px;
     left: 100px;
-    animation: star 10s ease-in-out 1s infinite;
+    animation: star 5s ease-in-out 1s infinite;
 }
 .s17 {
     top: 400px;
     left: 200px;
-    animation: star 9s ease-in-out 1.9s infinite;
+    animation: star 4s ease-in-out 1.9s infinite;
 }
 .s18 {
     top: 50px;
@@ -129,47 +129,47 @@ body {
 .s21 {
     top: 40rem;
     left: 50px;
-    animation: star 3s ease-in-out 2s infinite;
+    animation: star 8s ease-in-out 2s infinite;
 }
 .s22 {
     top: 30rem;
     left: 599px;
-    animation: star 8s ease-in-out 1s infinite;
+    animation: star 3s ease-in-out 1s infinite;
 }
 .s23 {
     top: 40rem;
     left: 50px;
-    animation: star 3s ease-in-out 2s infinite;
+    animation: star 1s ease-in-out 2s infinite;
 }
 .s24 {
     top: 500px;
     left: 320px;
-    animation: star 12s ease-in-out 4s infinite;
+    animation: star 9s ease-in-out 4s infinite;
 }
 .s25 {
     top: 355px;
     left: 320px;
-    animation: star 17s ease-in-out 2s infinite;
+    animation: star 6s ease-in-out 2s infinite;
 }
 .s26 {
     top: 200px;
     left: 350px;
-    animation: star 12s ease-in-out 2s infinite;
+    animation: star 12ms ease-in-out 2s infinite;
 }
 .s27 {
     top: 300px;
     left: 40rem;
-    animation: star 11s ease-in-out 3s infinite;
+    animation: star 8s ease-in-out 3s infinite;
 }
 .s28 {
-    top: 200px;
-    left: 400px;
-    animation: star 5s ease-in-out 2.5s infinite;
+    top: 300px;
+    left: 450px;
+    animation: star 3s ease-in-out 2.5s infinite;
 }
 .s29 {
     top: 600px;
     left: 400px;
-    animation: star 8s ease-in-out 1s infinite;
+    animation: star 2s ease-in-out 1s infinite;
 }
 .s30 {
     top: 400px;
@@ -289,12 +289,12 @@ body {
 .s53 {
     top: 400px;
     left: 770px;
-    animation: star 6ms ease-in-out 0.5s infinite;
+    animation: star 2s ease-in-out 0.5s infinite;
 }
 .s54 {
     top: 500px;
     left: 700px;
-    animation: star 6ms ease-in-out 4ms infinite;
+    animation: star 5s ease-in-out 4ms infinite;
 }
 .s55 {
     top: 500px;
@@ -309,7 +309,7 @@ body {
 .s57 {
     top: 170px;
     left: 1400px;
-    animation: star 6s ease-in-out 1s infinite;
+    animation: star 3.5s ease-in-out 1s infinite;
 }
 .s58 {
     top: 400px;
@@ -319,10 +319,10 @@ body {
 .s59 {
     top: 600px;
     left: 1200px;
-    animation: star 6ms ease-in-out 3s infinite;
+    animation: star 2ms ease-in-out 3s infinite;
 }
 .s60 {
-    top: 50px;
+    top:150px;
     left: 1300px;
     animation: star 3s ease-in-out 2s infinite;
 }
