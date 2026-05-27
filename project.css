@@ -12,7 +12,7 @@ body {
 /* site headline */
 #h1 {
     border-radius: 15px;
-    height: 100px;
+    height: 70px;
     padding-top: 10px;
     padding-bottom: 15px;
     backdrop-filter: blur(10px);
