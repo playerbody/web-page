@@ -421,54 +421,42 @@ li {
     transform: scale(1.3);
     transition: transform 1s linear;
 }
-
-.دکمه {
-    border: 5px solid rgba(48, 0, 110, 0.57);
-    background-color: blueviolet;
-    text-decoration: none;
+/* button */
+.page1{
+    animation: none;
+    border: solid 1px white;
+    width: 400px;
+    height: 32px;
+    border-radius: 1rem;
+    transition: 0.6s;
+    position: sticky;
+    left: 550px;
+}
+.page1:hover{
+    box-shadow: 0px 0px 10px rgb(199, 228, 255);
+    /* filter: drop-shadow(0px 0px 10px rgb(199, 228, 255)); */
+    transition: 0.6s;
+}
+.button{
+    color: white;
+    background: none;
+    border-radius: 16px;
+    right: 0px;
+    height: 32px;
+    width: 400px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:hover{
+    transition: 0.5s;
     color: black;
-    border-radius: 10px;
-    width: 40px;
-    position: sticky;
-    left: 1460px;
-    box-shadow: 0px 0px 5px rgb(124, 124, 125);
-
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(199, 228, 255);
 }
-
-.دکمه:visited {
-    border: 5px solid rgba(85, 84, 86, 0.707);
-    background-color: rgba(118, 117, 118, 0.458);
+a{
+    color: white;
     text-decoration: none;
-    color: rgb(251, 249, 255);
-    border-radius: 10px;
-    width: 40px;
-    position: sticky;
-    left: 1460px;
-    box-shadow: 0px 0px 5px rgb(138, 138, 138);
-
-
 }
-
-.دکمه:hover {
-    border: 5px solid rgba(159, 96, 240, 0.57);
-    background-color: rgba(141, 37, 238, 0.458);
-    text-decoration: none;
-    color: rgb(8, 1, 25);
-    border-radius: 10px;
-    width: 60px;
-    position: sticky;
-    left: 1460px;
-    box-shadow: 0px 0px 5px rgb(204, 156, 248);
-}
-
-.دکمه:active {
-    border: 7px solid rgba(0, 0, 0, 0.57);
-    background-color: rgb(126, 125, 127);
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    width: 60px;
-    position: sticky;
-    left: 1460px;
-    box-shadow: 0px 0px 10px rgb(115, 113, 116);
+a:hover{
+    color: black;
 }
