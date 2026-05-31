@@ -463,12 +463,17 @@ a:hover{
 }
 @media screen and (max-width:1024px){
     .nav{
-        background-image:linear-gradient(to top , rgba(2, 2, 76, 0.508), rgba(50, 1, 172, 0.415));
+        background-image:linear-gradient(to top , rgba(2, 2, 76, 0.303), rgba(50, 1, 172, 0.259));
         box-shadow: 0px 0px 10px rgba(191, 179, 221, 0.326);
         top: 110px;
         height: 500px;
     }
     li{
         padding-bottom: 13px;
+    }
+}
+@media screen and (max-width:1256px) {
+    h2{
+         background-image: linear-gradient(to right, rgba(163, 117, 227, 0.384), hsla(241, 79%, 70%, 0.274));
     }
 }
