@@ -1,0 +1,1382 @@
+body{
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    padding-left: 0;
+    position: relative;
+}
+.title{
+    color: white;
+    font-size: x-large;
+}
+.page2{
+    top: -60px;
+    animation: none;
+    border: solid 1px white;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    left: -4rem;
+    transition: 0.6s;
+}
+.page2:hover{
+    box-shadow: 0px 0px 10px rgb(199, 228, 255);
+    /* filter: drop-shadow(0px 0px 10px rgb(199, 228, 255)); */
+    transition: 0.6s;
+}
+.information{
+    position: absolute;
+    background: none;
+    color: white;
+    border: white 1px solid;
+    border-radius: 20px;
+    right: 0px;
+    height: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.information:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(199, 228, 255);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+        color: black;
+}
+.planets{
+    position: relative;
+    animation: none;
+}
+.S{
+    animation: none;
+}
+.Sun{
+    position: absolute;
+    top: 1px;
+    left: -22rem;
+    height: 29rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+} 
+.Sun:hover{
+    scale: 1.1;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 50px rgb(180, 87, 0));
+}
+.Mercury{
+    position: absolute;
+    top: 290px;
+    left: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Mercury:hover{
+    scale: 1.5;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 124, 2));
+}
+.Venus{
+    position: absolute;
+    top: 60px;
+    left: 15rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Venus:hover{
+    scale: 1.5;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 81, 0));
+}
+.Earth{
+    position: absolute;
+    top: 170px;
+    left: 22rem;
+    height: 6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Earth:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(0, 132, 255));
+}
+.Moon{
+    position: absolute;
+    top: 16rem;
+    left: 27rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Moon:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(199, 228, 255));
+}
+.Mars{
+    position: absolute;
+    top: 3rem;
+    left: 32rem;
+    height: 4.6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Mars:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 82, 1));
+}
+.Jupiter{
+    position: absolute;
+    top: 19.2rem;
+    left: 38rem;
+    height: 7.6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Jupiter:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(253, 132, 76));
+}
+.Saturn{
+    position: absolute;
+    top: 8.2rem;
+    left: 45rem;
+    height: 6.2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Saturn:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 158, 94));
+}
+.Uranus{
+    position: absolute;
+    top: 16.2rem;
+    left: 53rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Uranus:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(90, 203, 255));
+}
+.Neptune{
+    position: absolute;
+    top: 10.2rem;
+    left: 55rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.Neptune:hover{
+    scale: 1.3;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 10px rgb(0, 153, 255));
+}
+.Made{
+    position: absolute;
+    color: white;
+    top: 35rem;
+    left: 38rem;
+    opacity: 0.3;
+}
+/*nafas code*/
+div{
+   color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     top:100px;
+     left: 125px;
+     animation: stars 4s ease-in-out 1s infinite;
+}
+@keyframes stars {
+    from{opacity:1;}
+    to{
+        opacity: 0.2;
+    }
+}
+
+.stars1{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:100px;
+     left: 10px;
+     animation: stars1 1s ease-in-out 3s infinite;
+}
+@keyframes stars1{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.stars2{
+     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:200px;
+     left: 100px;  animation: stars2 3s ease-in-out 2s infinite;
+}
+@keyframes stars2{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.stars3{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 250px;
+     left: 150px;
+       animation: stars3 4s ease-in-out 5s infinite;
+}
+@keyframes stars3{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.2;
+    }
+}
+
+.stars4{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 11px;
+     left: 100px;
+       animation: stars4 3s ease-in-out 1s infinite;
+}
+@keyframes stars4{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.3;
+    }
+
+}
+.stars5{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:300px;
+     left: 270px;
+       animation: stars5 1s ease-in-out 3ms infinite;
+}
+@keyframes stars5{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+.stars6{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:20px;
+     left: 230px;  animation: stars6 2s ease-in-out 6s infinite;
+}
+@keyframes stars6{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+.stars7{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:200px;
+     left: 500px;  animation: stars7 3s ease-in-out 4s infinite;
+}
+@keyframes stars7{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+.stars8{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 2px;
+     height: 2px;
+     border-radius: 50%;
+     top: 30px;
+     left: 600px;
+       animation: stars8 3s ease-in-out 2.2s infinite;
+}
+@keyframes stars8{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.stars9{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:600px;
+     left: 600px;  animation: stars9 1s ease-in-out 1.4s infinite;
+}
+@keyframes stars9{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.stars10 {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top:500px;
+     left: 550px;  animation: stars10 3.5s ease-in-out 1s infinite;
+}
+@keyframes stars10{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.2;
+    }
+
+}
+.stars11{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40p
+
+x;
+     left: 100px;
+       animation: stars11 4.5s ease-in-out 2s infinite;
+}
+@keyframes stars11{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+.stars12{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 200px;
+     left: 10px;
+    animation: stars12 1s ease-in-out 2s infinite;
+}
+@keyframes stars12{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+}
+} */
+.stars13{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 400px;
+     left: 15px;
+    animation: stars13 2.5s ease-in-out 7s infinite;
+}
+@keyframes stars13{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+}
+}
+.stars14{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 235px;
+     left: 25px;
+    animation: stars14 2s ease-in-out 2s infinite;
+}
+@keyframes stars14{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+}
+}
+.stars15{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 20px;
+     left: 10px;
+    animation: stars15 1.5s ease-in-out 1s infinite;
+}
+@keyframes stars15{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars16{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 100px;
+    animation: stars16 10s ease-in-out 1s infinite;
+}
+@keyframes stars16{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.4;
+}
+}
+.stars17{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 400px;
+     left: 200px;
+    animation: stars17 9s ease-in-out 1.9s infinite;
+}
+@keyframes stars17{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+}
+}
+.stars18{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 50px;
+     left: 500px;
+    animation: stars18 2.5s ease-in-out 2s infinite;
+}
+@keyframes stars18{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars19{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 2px;
+     border-radius: 50%;
+     top: 200px;
+     left: 10px;
+    animation: stars19 3s ease-in-out 2s infinite;
+}
+@keyframes stars19{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars20{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 120px;
+    animation: stars20 5s ease-in-out 1s infinite;
+}
+@keyframes stars20{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars21{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40rem;
+     left: 50px;
+    animation: stars21 3s ease-in-out 2s infinite;
+}
+@keyframes stars21{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars22{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 30rem;
+     left: 599px;
+    animation: stars22 8s ease-in-out 1s infinite;
+}
+@keyframes stars22{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars23{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40rem;
+     left: 50px;
+    animation: stars23 3s ease-in-out 2s infinite;
+}
+@keyframes stars23{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars24{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 320px;
+    animation: stars24 12s ease-in-out 4s infinite;
+}
+@keyframes stars24{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars25{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 355px;
+     left: 320px;
+    animation: stars25 17s ease-in-out 2s infinite;
+}
+@keyframes stars25{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars26{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 200px;
+     left: 350px;
+    animation: stars26 12s ease-in-out 2s infinite;
+}
+@keyframes stars26{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars27{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 300px;
+     left: 40rem;
+    animation: stars27 11s ease-in-out 3s infinite;
+}
+@keyframes stars27{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars28{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 200px;
+     left: 400px;
+    animation: stars28 5s ease-in-out 2.5s infinite;
+}
+@keyframes stars28{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+}
+}
+.stars29{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 400px;
+    animation: stars29 8s ease-in-out 1s infinite;
+}
+@keyframes stars29{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars30{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 400px;
+     left: 500px;
+    animation: stars30 3s ease-in-out 2s infinite;
+}
+@keyframes stars30{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.stars24{
+     background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 320px;
+    animation: stars24 12s ease-in-out 4s infinite;
+}
+@keyframes stars24{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s31{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 1000px;
+     animation: s31 12s ease-in-out 3s infinite; 
+}
+@keyframes s31{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s32{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 50px;
+     left: 1000px;
+     animation: s32 1s ease-in-out 3s infinite; 
+}
+@keyframes s32{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s33{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 312px;
+     left: 1000px;
+     animation: s33 2s ease-in-out 2.7s infinite; 
+}
+@keyframes s33{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s34{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 100px;
+     left: 1111px;
+     animation: s34 1s ease-in-out 8s infinite; 
+}
+@keyframes s34{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s35{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40px;
+     left: 11234px;
+     animation: s35 3s ease-in-out 9s infinite; 
+}
+@keyframes s35{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s36{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40px;
+     left: 1300px;
+     animation: s36 4s ease-in-out 1s infinite; 
+}
+@keyframes s36{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s35{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 70px;
+     left: 1223px;
+     animation: s35 1.5s ease-in-out 8ms infinite; 
+}
+@keyframes s35{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s36{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 1664px;
+     animation: s36 2s ease-in-out 100ms infinite; 
+}
+@keyframes s36{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s37{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 270px;
+     left: 1234px;
+     animation: s37 1s ease-in-out 0 s infinite; 
+}
+@keyframes s37{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s38{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 300px;
+     left: 1153px;
+     animation: s38 1s ease-in-out 1s infinite; 
+}
+@keyframes s38{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s39{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 367px;
+     left: 1173px;
+     animation: s39 1.5s ease-in-out 0s infinite; 
+}
+@keyframes s39{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s40{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 450px;
+     left: 1189px;
+     animation: s40 3s ease-in-out 2s infinite; 
+}
+@keyframes s40{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.4;
+}
+}
+.s41{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 40px;
+     left: 11234px;
+     animation: s41 1ms ease-in-out 2s infinite; 
+}
+@keyframes s41{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.6;
+}
+}
+.s42{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 800px;
+     left: 1414px;
+     animation: s42 1ms ease-in-out 0.5s infinite; 
+}
+@keyframes s42{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.999;
+}
+}
+.s43{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 1434px;
+     animation: s43 1s ease-in-out 1ms infinite; 
+}
+@keyframes s43{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s44{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 90px;
+     left: 870px;
+     animation: s44 1s ease-in-out 0.5s infinite; 
+}
+@keyframes s44{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s45{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 200px;
+     left: 870px;
+     animation: s45 3s ease-in-out 0.5s infinite; 
+}
+@keyframes s45{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s46{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 300px;
+     left: 860px;
+     animation: s46 2ms ease-in-out 0.5s infinite; 
+}
+@keyframes s46{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s47{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 870px;
+     animation: s47 3ms ease-in-out 0.5s infinite; 
+}
+@keyframes s47{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s48{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 222px;
+     left: 780px;
+     animation: s48 4ms ease-in-out 1s infinite; 
+}
+@keyframes s48{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s49{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 840px;
+     animation: s49 1s ease-in-out 0.5s infinite; 
+}
+@keyframes s49{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s50{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 400px;
+     left: 770px;
+     animation: s50 6ms ease-in-out 0.5s infinite; 
+}
+@keyframes s50{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s51{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 700px;
+     animation: s51 6ms ease-in-out 4ms infinite; 
+}
+@keyframes s51{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s52{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 500px;
+     left: 1888px;
+     animation: s52 6s ease-in-out 4s infinite; 
+}
+@keyframes s52{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s53{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 480px;
+     left: 1460px;
+     animation: s53 1s ease-in-out 4ms infinite; 
+}
+@keyframes s53{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s54{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 370px;
+     left: 1489px;
+     animation: s54 6s ease-in-out 1s infinite; 
+}
+@keyframes s54{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}.s55{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 400px;
+     left: 1500px;
+     animation: s55 1s ease-in-out 8s infinite; 
+}
+@keyframes s55{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s56{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 600px;
+     left: 1200px;
+     animation: s56 6ms ease-in-out 3s infinite; 
+}
+@keyframes s56{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s57{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 50px;
+     left: 1300px;
+     animation: s57 3s ease-in-out 7s infinite; 
+}
+@keyframes s57{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s58{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 200px;
+     left: 1500px;
+     animation: s58 6s ease-in-out 4s infinite; 
+}
+@keyframes s58{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s59{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 300px;
+     left: 1300px;
+     animation: s59 1ms ease-in-out 2s infinite; 
+}
+@keyframes s59{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
+.s60{
+    background-color: white;
+    position: fixed;
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     top: 300px;
+     left: 1400px;
+     animation: s60 6ms ease-in-out 4ms infinite; 
+}
+@keyframes s60{
+     from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+}
+}
