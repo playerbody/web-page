@@ -62,8 +62,8 @@ a:hover{
 }
 .Sun{
     position: absolute;
-    top: 1px;
-    left: -22rem;
+    top: -50px;
+    left: -20rem;
     height: 29rem;
     transition: 0.5s;
 } 
@@ -73,7 +73,7 @@ a:hover{
 }
 .Mercury{
     position: absolute;
-    top: 290px;
+    top: 270px;
     left: 10rem;
     height: 3rem;
     transition: 0.5s;
@@ -84,7 +84,7 @@ a:hover{
 }
 .Venus{
     position: absolute;
-    top: 100px;
+    top: 130px;
     left: 15rem;
     height: 3rem;
     transition: 0.5s;
@@ -95,7 +95,7 @@ a:hover{
 }
 .Earth{
     position: absolute;
-    top: 170px;
+    top: 190px;
     left: 22rem;
     height: 6rem;
     transition: 0.5s;
@@ -106,7 +106,7 @@ a:hover{
 }
 .Moon{
     position: absolute;
-    top: 16rem;
+    top: 17rem;
     left: 27rem;
     height: 2rem;
     transition: 0.5s;
@@ -117,7 +117,7 @@ a:hover{
 }
 .Mars{
     position: absolute;
-    top: 3rem;
+    top: 7rem;
     left: 32rem;
     height: 4.6rem;
     transition: 0.5s;
