@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.head {
+    position: relative;
+    height: 22rem; 
+}
+.probe {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.973) 5%, transparent 100%);
+    color:white;
+    text-align: center;
+}
+.bt{
+    position: absolute;
+    top: 20rem;
+    left: 94%;
+}
+.bt1{
+    background: none;
+    color: white;
+    border: none;
+    scale: 1.2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.bt1:hover{
+    transition: 0.3s;
+    color: rgb(0, 140, 255);
+    text-decoration: underline;
+}
