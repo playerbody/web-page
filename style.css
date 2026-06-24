@@ -530,3 +530,9 @@ a:hover{
         opacity: 0;
     }
 }
+@media screen and (max-width : 963px) {
+
+body {
+        text-align: right;
+    }
+}
