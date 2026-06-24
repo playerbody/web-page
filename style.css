@@ -212,6 +212,7 @@ a:hover{
     top: 100px;
     left: 125px;
     animation: star 2s ease-in-out 1s infinite;
+    display: none;
 }
 .s1 {
     top: 400px;
@@ -520,6 +521,7 @@ a:hover{
     height: 3px;
     border-radius: 50%;
     animation-direction: alternate;
+    display: none;
 }
 @keyframes star {
     from {
